@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(82, 122, 145);
+    color: blanchedalmond;
+    font-family: "georgia";
+    letter-spacing: 1px;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10%;
+    height: auto;
+    max-width: 200px;
+
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    border: 10px solid rgb(6, 49, 83);
+    border-width: 2px;
+    padding: 20px;
+
+    background-color: rgb(49, 68, 151);
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    transition: color 1s;
+}
+
+a:hover {
+    color: black;
+    background-color: antiquewhite;
+}
